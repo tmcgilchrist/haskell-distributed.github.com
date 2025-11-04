@@ -1,0 +1,72 @@
+/* Syntax highlighting - Nord theme inspired */
+
+.sourceCode {
+  background-color: #2e3440;
+  color: #d8dee9;
+  border-radius: 6px;
+}
+
+/* Keywords */
+.kw { color: #81a1c1; font-weight: bold; }
+
+/* Data types */
+.dt { color: #8fbcbb; }
+
+/* Decimals, BaseN, Floats */
+.dv, .bn, .fl { color: #b48ead; }
+
+/* Characters and Strings */
+.ch, .st { color: #a3be8c; }
+
+/* Comments */
+.co { color: #616e88; font-style: italic; }
+
+/* Alerts and Errors */
+.al, .er { color: #bf616a; font-weight: bold; }
+
+/* Functions */
+.fu { color: #88c0d0; }
+
+/* Variables */
+.va { color: #d8dee9; }
+
+/* Operators */
+.op { color: #81a1c1; }
+
+/* Built-in */
+.bu { color: #8fbcbb; }
+
+/* Extensions */
+.ex { color: #81a1c1; }
+
+/* Preprocessor */
+.pp { color: #ebcb8b; }
+
+/* Attributes */
+.at { color: #ebcb8b; }
+
+/* Documentation */
+.do { color: #a3be8c; }
+
+/* Annotations */
+.an { color: #d08770; }
+
+/* Control Flow */
+.cf { color: #81a1c1; font-weight: bold; }
+
+/* Imports */
+.im { color: #81a1c1; }
+
+/* Line numbers */
+.source-line-number {
+  color: #616e88;
+}
+
+/* Inline code (not in pre blocks) */
+:not(pre) > code {
+  background-color: #e5e9f0;
+  color: #bf616a;
+  padding: 0.2em 0.4em;
+  border-radius: 3px;
+  font-size: 0.9em;
+}
