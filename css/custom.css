@@ -11,6 +11,9 @@
   --light-text: #eceff4;
   --border-color: #d8dee9;
   --code-bg: #3b4252;
+  --inline-code-bg: #e8f0f8;
+  --inline-code-color: #4c6a8f;
+  --inline-code-border: #d0dde9;
 }
 
 /* Typography */
@@ -65,13 +68,14 @@ pre {
 }
 
 code {
-  background-color: #f5f5f5;
+  background-color: var(--inline-code-bg);
   border-radius: 3px;
   padding: 0.2em 0.4em;
   font-size: 0.9em;
   font-family: "Fira Code", "Monaco", "Consolas", "Courier New", monospace;
-  color: #bf616a;
+  color: var(--inline-code-color);
   font-weight: 500;
+  border: 1px solid var(--inline-code-border);
 }
 
 pre code {

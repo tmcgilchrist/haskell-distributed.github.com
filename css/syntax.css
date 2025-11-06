@@ -75,11 +75,13 @@ code.sourceCode {
 
 /* Inline code (not in pre blocks) */
 :not(pre) > code {
-  background-color: #e5e9f0;
-  color: #bf616a;
+  background-color: #e8f0f8;
+  color: #4c6a8f;
   padding: 0.2em 0.4em;
   border-radius: 3px;
   font-size: 0.9em;
+  border: 1px solid #d0dde9;
+  font-weight: 500;
 }
 
 /* Ensure all code blocks are styled properly */

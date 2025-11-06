@@ -8,9 +8,18 @@ This page demonstrates the code highlighting styles.
 
 ## Inline Code
 
-Here is some `inline code` that should be readable.
+Here is some `inline code` that should be readable and match the site's blue color scheme.
 
 You can use inline code like `import Control.Distributed.Process` in your text.
+
+More examples: `ProcessId`, `send`, `expect`, `newLocalNode`, `runProcess`
+
+The inline code now uses the primary color scheme:
+- Background: Light blue (`#e8f0f8`)
+- Text: Dark blue (`#4c6a8f`) - matches the primary-dark color
+- Border: Subtle blue-grey (`#d0dde9`)
+
+This creates a cohesive look with the rest of the site, complementing the hero gradient and primary blue (`#5e81ac`) used throughout.
 
 ## Code Blocks
 
