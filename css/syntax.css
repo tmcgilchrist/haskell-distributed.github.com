@@ -1,9 +1,20 @@
 /* Syntax highlighting - Nord theme inspired */
 
 .sourceCode {
-  background-color: #2e3440;
+  background-color: #3b4252;
   color: #d8dee9;
   border-radius: 6px;
+  padding: 1.5rem;
+}
+
+pre.sourceCode {
+  background-color: #3b4252 !important;
+  color: #d8dee9;
+}
+
+code.sourceCode {
+  background-color: transparent;
+  color: #d8dee9;
 }
 
 /* Keywords */
@@ -69,4 +80,23 @@
   padding: 0.2em 0.4em;
   border-radius: 3px;
   font-size: 0.9em;
+}
+
+/* Ensure all code blocks are styled properly */
+div.sourceCode {
+  background-color: #3b4252;
+  border-radius: 6px;
+  padding: 1.5rem;
+  overflow-x: auto;
+  margin: 1rem 0;
+}
+
+/* Plain code blocks without syntax highlighting */
+pre:not(.sourceCode) {
+  background-color: #3b4252;
+  color: #d8dee9;
+}
+
+pre:not(.sourceCode) code {
+  color: #d8dee9;
 }

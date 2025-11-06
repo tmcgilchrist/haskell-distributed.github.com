@@ -58,6 +58,10 @@ pre {
   border-radius: 6px;
   padding: 1.5rem !important;
   overflow-x: auto;
+  color: #d8dee9;
+  margin: 1.5rem 0;
+  border: 1px solid rgba(216, 222, 233, 0.1);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 code {
@@ -65,13 +69,18 @@ code {
   border-radius: 3px;
   padding: 0.2em 0.4em;
   font-size: 0.9em;
-  font-family: "Fira Code", "Monaco", "Consolas", monospace;
+  font-family: "Fira Code", "Monaco", "Consolas", "Courier New", monospace;
+  color: #bf616a;
+  font-weight: 500;
 }
 
 pre code {
   background-color: transparent;
   padding: 0;
   font-size: 0.95em;
+  color: #d8dee9;
+  font-weight: normal;
+  line-height: 1.6;
 }
 
 /* Sidebar menu */
